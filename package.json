@@ -13,8 +13,7 @@
     "deploy": "gh-pages -d dist",
     "test": "vitest",
     "test:watch": "vitest --watch",
-    "coverage": "vitest --coverage",
-    "postbuild": "node scripts/copy404.cjs"
+    "coverage": "vitest --coverage"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.7.0",
